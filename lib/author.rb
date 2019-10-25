@@ -23,7 +23,7 @@ class Author
   
   
   def self.post_count
-    @@total_posts.count
+    @@posts.count
     # count = 0
 
     # @@total_posts.each do |post_|
