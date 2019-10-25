@@ -21,13 +21,16 @@ class Artist
   end
   
   def self.song_count
-    count = 0
+    
+    Song.all.count
+    
+    # count = 0
 
-    @@total_songs.each do |song|
-      puts song.name
-      count += 1
-    end
-    return count
+    # @@total_songs.each do |song|
+    #   puts song.name
+    #   count += 1
+    # end
+    # return count
   end
   
 end
