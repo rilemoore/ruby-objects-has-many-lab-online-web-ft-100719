@@ -22,13 +22,14 @@ class Author
   
   
   def self.post_count
-    count = 0
+    @@total_posts.count
+    # count = 0
 
-    @@total_posts.each do |post_|
-      puts post_.title
-      count += 1
-    end
-    return count
+    # @@total_posts.each do |post_|
+    #   puts post_.title
+    #   count += 1
+    # end
+    # return count
   end
   
   
